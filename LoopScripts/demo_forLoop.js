@@ -15,10 +15,11 @@
 //     console.log(num);
 // }
 // BREAK
-let num1 = 1;
+let num1 = 10;
 let a = 1;
-while(a < 100){
+while(a < 10){
     num1 = num1 * 2; 
-    if(num1 >= 100)break;
+    if(num1 >= 1000)break;
     a++;
 }
+console.log(num1,a);
